@@ -10,3 +10,6 @@ Kilo (kg) / Boy(m) * Boy(m)
 >Lütfen kilonuzu giriniz : 105
 
 >Vücut Kitle İndeksiniz : 35.49215792320173
+
+### Linkler
+> <a href="https://app.patika.dev/emrevaljean" target="_blank">Patika Profilim için</a>
