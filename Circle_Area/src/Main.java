@@ -14,10 +14,10 @@ public class Main {
         area = pi * r * r;
         perimeter = 2 * pi * r;
         formula = (( pi * r * r * degree ) / 360 );
-
+        /*
         if(formula == area) {
             System.out.println("Slice equal circle !!");
-        }
+        }*/
 
         System.out.println("Perimeter of the circle: "+ perimeter);
         System.out.println("Area of the slice: "+formula);
