@@ -17,4 +17,7 @@
 
 > Alan * Alan = 𝑢 * (𝑢 − 𝑎)* (𝑢 − 𝑏) * (𝑢 − 𝑐)
 
+### Linkler
+> <a href="https://app.patika.dev/emrevaljean" target="_blank">Patika Profilim için</a>
+
 <hr>
