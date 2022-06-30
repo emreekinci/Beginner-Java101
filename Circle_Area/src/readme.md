@@ -3,11 +3,18 @@
 <hr>
 Java ile yarı çapını kullanıcıdan aldığınız dairenin alanını ve çevresini hesaplayan programı yazın.
 
+<br>
+<br>
+
 > Alan Formülü : π * r * r;
 
 > Çevre Formülü : 2 * π * r;
 
+<br>
+
 ## Ödev
+
+<br>
 
 > Yarıçapı r, merkez açısının ölçüsü 𝛼 olan daire diliminin alanı bulan programı yazınız.
 
