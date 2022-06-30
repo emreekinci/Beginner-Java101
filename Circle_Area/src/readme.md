@@ -22,4 +22,7 @@ Java ile yarı çapını kullanıcıdan aldığınız dairenin alanını ve çev
 
 > Formül : (𝜋 * (r*r) * 𝛼) / 360
 
+### Linkler
+> <a href="https://app.patika.dev/emrevaljean" target="_blank">Patika Profilim için</a>
+
 <hr>
