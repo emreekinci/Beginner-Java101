@@ -25,3 +25,7 @@
     <li>Toplam Tutar : 21.68 TL</li>
 </ul>
 
+### Linkler
+> <a href="https://app.patika.dev/emrevaljean" target="_blank">Patika Profilim için</a>
+
+
