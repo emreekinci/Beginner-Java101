@@ -3,55 +3,45 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        int number1,number2,select;
+        int number1,number2,choose;
 
-        Scanner input =new Scanner(System.in);
-        System.out.println("Ilk Sayiyi Giriniz :");
-        number1=input.nextInt();
+       import java.util.Scanner;
 
-        System.out.println("Ikinci Sayiyi Giriniz :");
-        number2=input.nextInt();
+public class Main {
+    public static void main(String[] args) {
 
-        System.out.println("1-Toplama\n2-Cikarma\n3-Carpma\n4-Bolme");
-        System.out.println("Hangi Islemi Yapmak Istersiniz ? :");
-        select=input.nextInt();
+        int number1,number2,choose;
 
-        /*if (select == 1){
-            System.out.println("Sonuc: "+ (number1+number2));
-        }else if (select == 2){
-            System.out.println("Sonuc : "+ (number1-number2));
-        }else if (select == 3){
-            System.out.println("Sonuc : "+(number1*number2));
-        }else if (select == 4){
-            if (number2 !=0){
-                System.out.println("Sonuc : "+(number1/number2));
-            }else {
-                System.out.println("Sayi sifira bolunemez");
-            }
-        }else {
-            System.out.println("Hatali Giris Yaptiniz,Lutfen Tekrar Deneyiniz");
-             */
+        Scanner scan =new Scanner(System.in);
+        System.out.println("Enter First Number :");
+        number1=scan.nextInt();
 
-        switch (select){
+        System.out.println("Enter Second Number :");
+        number2=scan.nextInt();
+
+        System.out.println("1-Addition\n2-Extraction\n3-Multiplication\n4-Division");
+        System.out.println("Which operation would you like to do ? :");
+        choose = scan.nextInt();
+
+        switch (choose){
             case 1:
-                System.out.println("Sonuc : "+(number1+number2));
+                System.out.println("Result : "+(number1+number2));
                 break;
             case 2:
-                System.out.println("Sonuc : "+(number1-number2));
+                System.out.println("Result : "+(number1-number2));
                 break;
             case 3:
-                System.out.println("Sonuc : "+(number1*number2));
+                System.out.println("Result : "+(number1*number2));
                 break;
             case 4:
                 if (number2!=0){
-                    System.out.println("Sonuc : "+(number1/number2));
+                    System.out.println("Result : "+(number1/number2));
                 }else {
-                    System.out.println("Sayi 0'a Bolunemez");
+                    System.out.println("Number cannot be divided by 0");
                 }
                 break;
             default:
-                System.out.println("Hatali Secim Yaptiniz,Lutfen Tekrar Deneyiniz");
+                System.out.println("You Made a Wrong Choice, Please Try Again");
         }
     }
 }
-
