@@ -9,9 +9,12 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+            
+        // defining variables
         int Math, Physics, Turkish, Chemistry, Music, average ;
         Scanner scan = new Scanner(System.in);
 
+        // get note information from user
         System.out.println("Math score : ");
         Math = scan.nextInt();
         System.out.println("Physics score : ");
@@ -23,7 +26,7 @@ public class Main {
         System.out.println("Music score : ");
         Music = scan.nextInt();
 
-        // for invalid input values
+        // for invalid input values --> for outside the range of 0 to 100
         if (Math < 0 || Math > 100)
             Math = 0;
         if (Physics < 0 || Physics > 100)
@@ -37,6 +40,7 @@ public class Main {
 
         average = ( Math + Physics + Turkish + Chemistry + Music ) / 5 ;
 
+        // info message about the result
         if (average < 55) {
             System.out.println("You failing the class !!! ");
         }
@@ -46,3 +50,4 @@ public class Main {
         System.out.println("Your average is : " + average);
     }
 }
+
