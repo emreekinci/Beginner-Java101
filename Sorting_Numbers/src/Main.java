@@ -29,9 +29,9 @@ public class Main {
 
         } else{
             if (num_1 > num_2){
-                System.out.print("c>a>b");
+                System.out.print("num3>num1>num2");
             }else{
-                System.out.print("c>b>a");
+                System.out.print("num3>num2>num1");
             }
         }
     }
