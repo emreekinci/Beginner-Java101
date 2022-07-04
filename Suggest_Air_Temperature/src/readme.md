@@ -1,7 +1,8 @@
 # Hava Sıcaklığına Göre Etkinlik Önerme
 
 <hr>
-Koşullar :
+
+## Koşullar :
 
 >Sıcaklık 5'dan küçük ise "Kayak" yapmayı öner.
 Sıcaklık 5 ve 15 arasında ise "Sinema" etkinliğini öner.
