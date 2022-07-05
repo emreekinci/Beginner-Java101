@@ -7,16 +7,16 @@ public class Main {
         int age, travelType;
         Boolean flag = false;
 
-        Scanner input = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
 
         System.out.print("Enter the distance in km : ");
-        distance = input.nextDouble();
+        distance = scan.nextDouble();
 
         System.out.print("Enter your age : ");
-        age = input.nextInt();
+        age = scan.nextInt();
 
         System.out.print("Enter trip type (1 => One Way , 2 => Round Trip ) : ");
-        travelType = input.nextInt();
+        travelType = scan.nextInt();
 
         ticketAmount = distance * feePerDistance;
 
@@ -49,9 +49,11 @@ public class Main {
         }else{
             System.out.println("You entered an incorrect travel type!!!");
         }
-
-        input.close();
+        scan.close();
     }
 }
+
+
+
 
 
