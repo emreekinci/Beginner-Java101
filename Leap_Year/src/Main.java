@@ -31,3 +31,40 @@ public class Main {
             System.out.println(year + " is not a Leap Year !! ");
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+Alternative solution :
+
+ Scanner scanner = new Scanner(System.in);
+
+    int yil;
+
+        System.out.println("Yıl giriniz");
+
+                yil = scanner.nextInt();
+
+                //100 ün katı olmayıp 4 e kalansız bölünme koşulu
+                if((yil % 100 != 0) && (yil %4 == 0)){
+                System.out.println(yil + "senesi bir artık yıldır");
+                }
+                //100 ün katı ve 400 e tam bölünebilme koşulu
+                else if((yil % 100 == 0) && (yil % 400 == 0)){
+                System.out.println(yil + "senesi bir artık yıldır.");
+                }
+                else if((yil % 100 == 0) && (yil % 400 != 0)){
+                System.out.println(yil + "senesi bir artık yıl değildir.");  
+                
+                
+                
+ */
