@@ -33,7 +33,7 @@ public class Main {
         }// loop end
         else {
             System.out.println("Please enter a correct value between 0 to \"infinite\"  ");
-            System.out.println(336/7);
+            //System.out.println(336/7);
         }
     }
 }
