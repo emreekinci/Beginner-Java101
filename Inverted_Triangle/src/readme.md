@@ -14,6 +14,7 @@ Basamak Sayısı : 7
           * 
 
 <hr>
+
 ### Linkler
 
 > <a href="https://app.patika.dev/emrevaljean" target="_blank">Patika Profilim</a>
