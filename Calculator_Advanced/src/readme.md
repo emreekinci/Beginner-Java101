@@ -1,17 +1,22 @@
-Gelişmiş Hesap Makinesi
-Java ile kullanıcın seçtiği işlemleri yapan hesap makinesi yapıyoruz.
+# Gelişmiş Hesap Makinesi
+<hr>
+
+> Java ile kullanıcın seçtiği işlemleri yapan hesap makinesi yapıyoruz.
 
 Hesap makinesinin fonksiyonları :
 
-1- Toplama İşlemi
-2- Çıkarma İşlemi
-3- Çarpma İşlemi
-4- Bölme işlemi
-5- Üslü Sayı Hesaplama
-6- Faktoriyel Hesaplama
-7- Mod Alma
-8- Dikdörtgen Alan ve Çevre Hesabı
+<ol>
+    <li>Toplama İşlemi</li>
+    <li>Çıkarma İşlemi</li>
+    <li>Çarpma İşlemi</li>
+    <li>Bölme işlemi</li>
+    <li>Üslü Sayı Hesaplama</li>
+    <li>Faktoriyel Hesaplama</li>
+    <li>Mod Alma</li>
+    <li>Dikdörtgen Alan ve Çevre Hesabı</li>
+</ol>
 
+<hr>
 
     import java.util.Scanner;
 
