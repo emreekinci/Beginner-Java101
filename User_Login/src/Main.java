@@ -60,7 +60,7 @@ public class Main {
         
         int giris_hakki = 3;
         
-        String sys_kullanici_adi = "Mustafa Murat";
+        String sys_kullanici_adi = "Emre Ekinci";
         String sys_parola = "12345";
         
         System.out.println("*****************************");
@@ -82,32 +82,25 @@ public class Main {
                 System.out.println("Parolanız Yanlış...");
                 giris_hakki -= 1;
                 
-                System.out.println("Giriş Hakkı : " + giris_hakki);
-                
-                
+                System.out.println("Giriş Hakkı : " + giris_hakki);                
             }
             else if (!kullanici.equals(sys_kullanici_adi) && parola.equals(sys_parola)) {
                 
                 System.out.println("Kullanıcı Adınız Yanlış...");
                 giris_hakki -= 1;
-                System.out.println("Giriş Hakkı : " + giris_hakki);
-
-                
+                System.out.println("Giriş Hakkı : " + giris_hakki);                
             }
             else {
                 System.out.println("Kullanıcı Adınız ve Parolanız Yanlış...");
                 
                 giris_hakki -= 1;
-                System.out.println("Giriş Hakkı : " + giris_hakki);
-
-                
+                System.out.println("Giriş Hakkı : " + giris_hakki);              
             }
             if (giris_hakki == 0){
                 
                 System.out.println("Giriş hakkınız bitti. Tekrar Bekleriz....");
                 break;  // exit to while loop
-            }
-           
+            }      
         }
     }
 }
