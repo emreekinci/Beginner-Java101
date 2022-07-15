@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
 
@@ -7,10 +5,10 @@ public class Main {
             int kont = 0;
             for (int i = 1; i <= a; i++) {
                 if (a % i == 0) {
-                    kont++;
+                    kont++; // kont 2 ise asaldir : a   **
                 }
             }
-            if (kont == 2) {
+            if (kont == 2) { // 1 e bolundu ve kendisine bolundu --> 2 den fazla asal değil
                 System.out.print(a + " ");
             }
         }
