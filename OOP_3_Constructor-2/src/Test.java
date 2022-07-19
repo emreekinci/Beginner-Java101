@@ -4,7 +4,8 @@ public class Test {
     *      3 constructor and 3 method
     * */
     public static void main(String[] args) {
-
+        // new account() : Create an Account object          account1 ---> Account objesi <--- account2
+        // account1 : referance as a pointer
         Account account1 = new Account(); //added
         account1.paraYatir(12000);
         account1.setEmail("setemailusing@gmail.com");
@@ -22,3 +23,5 @@ public class Test {
 
     }
 }
+
+
