@@ -88,7 +88,7 @@ public class Ring {
             System.out.println("Maçı Kazanan : " + f2.name);
             return true;
         } else if (f2.health == 0){
-            System.out.println("Maçı Kazanan : " + f2.name);
+            System.out.println("Maçı Kazanan : " + f1.name);
             return true;
         }
 
