@@ -1,10 +1,8 @@
-public class Employee {
+public class Employee { 
     String name; // ad soyad
     double salary; // maas
     int workHours; // haftalik calisma saati
     int hireYear; // ise baslama yili
-
-
 
     Employee(String name,double salary,int workHours,int hireYear){  // constructor
         this.name = name;
@@ -73,7 +71,5 @@ public class Employee {
         System.out.println("-------------------------------------------");
 
         return null;
-
-
     }
 }
