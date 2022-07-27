@@ -22,7 +22,8 @@ public class Main {
             }
             if (i > number) {
                 max = i;
-                break;
+                break;  // break the loop on the first number greater than the entered number
+
             }
         }
 
