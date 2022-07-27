@@ -1,3 +1,40 @@
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        
+        Scanner scan = new Scanner(System.in);
+        int[] list = {1544, 766, 688, 533, -188, -632, 298, 984};
+        int min = list[0];
+        int max = list[0];
+
+        System.out.println(Arrays.toString(list)); // print not sorted array
+        System.out.print("Please enter a number : ");
+        int number = scan.nextInt();
+
+        Arrays.sort(list);
+        System.out.println(Arrays.toString(list)); // print sorted array an other way is for loop..
+        for (int i : list) {
+            if (i < number) {
+                min = i;
+            }
+            if (i > number) {
+                max = i;
+                break;
+            }
+        }
+
+        System.out.println("The nearest number smaller than the entered number : " + min);
+        System.out.println("The nearest number greater than the entered number : " + max);
+    }
+}
+
+
+
+
+/*
 import java.util.Scanner;
 import java.util.Arrays;
 
@@ -46,3 +83,4 @@ public class Main {
 
     }
 }
+*/
