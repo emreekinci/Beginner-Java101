@@ -13,3 +13,5 @@ Kilo (kg) / Boy(m) * Boy(m)
 
 ### Linkler
 > <a href="https://app.patika.dev/emrevaljean" target="_blank">Patika Profilim için</a>
+
+<hr>
