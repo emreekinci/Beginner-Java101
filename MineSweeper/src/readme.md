@@ -48,24 +48,24 @@ Satır Giriniz : 1
 Sütun Giriniz : 0
 ===========================
 - 2 1
-  1 - -
-  0 - -
-  Satır Giriniz : 2
-  Sütun Giriniz : 1
-  ===========================
+1 - -
+0 - -
+Satır Giriniz : 2
+Sütun Giriniz : 1
+===========================
 - 2 1
-  1 - -
-  0 1 -
-  Satır Giriniz : 2
-  Sütun Giriniz : 2
-  ===========================
+1 - -
+0 1 -
+Satır Giriniz : 2
+Sütun Giriniz : 2
+===========================
 - 2 1
-  1 - -
-  0 1 1
-  Satır Giriniz : 1
-  Sütun Giriniz : 2
-  Game Over!!
-  ===========================
+1 - -
+0 1 1
+Satır Giriniz : 1
+Sütun Giriniz : 2
+Game Over!!
+===========================
 ```
 
 <hr>
